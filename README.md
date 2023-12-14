@@ -1,0 +1,6 @@
+Food image classification and recognition is one of the important applications of computer vision. 
+The traditional single model has the problem of insufficient accuracy when dealing with a large number of food picture classification tasks. 
+In this Machine Vision coursework, a food image recognition method based on an ensemble model consisting of two different Convolutional Neural Networks (CNNS) is proposed. 
+The image data came from 16,643 food images in 11 categories on Kaggle. (Data set download address: https://www.kaggle.com/datasets/trolukovich/food11-image-dataset)
+These two models are inspired by the earlier LeNet model, to improve the accuracy of recognizing multi-class food images, deeper convolutional layers, batch standardization and data enhancement, attention mechanism, and other techniques are introduced to improve model performance and generalization, resulting in an overall accuracy of 92.4% and an average F1-score of 89%. 
+By comparing the performance of the ensemble model with other single models using various evaluation indexes, the experimental results show that the ensemble model performs Ill in processing complex food image recognition tasks and has higher accuracy and robustness than the single model.
